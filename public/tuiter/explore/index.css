@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.nav-bar-table{
+    display: flex;
+}
+
+.wd-css-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-universal-margin{
+    margin-top: 10px;
+}
+
+/* .wd-input-wrapper {
+    display:inline-block;
+    position: relative
+}
+.wd-input-wrapper:after {
+    font-family: 'FontAwesome';
+    content: '\f002';
+    position: absolute;
+    left: 6px;
+} */
+
+#wd-search-bar{
+    display: flex;
+    width: 80%;
+    border-radius: 20px;
+    margin: 10px 5px 20px 20px;
+    height: 50px;
+    background-color: lightgrey;
+    color: darkgray;
+    padding-left: 20px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+   }
+
+.wd-float-left{
+    float:left
+}
+
+.wd-float-right{
+    float:right
+}
+
+.wd-search-tabs{
+    display:flex;
+    justify-content: space-between;
+}
+
+.wd-tab-list{
+    display: flex;
+    height: 40px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.wd-topic{
+    /* padding-bottom: 19px */
+    width: 100px;
+    height: 40px;
+    justify-content: left;
+    align-items: left;  
+    vertical-align: middle; 
+    text-align: center;
+    padding:0%
+}
+
+.wd-selected{
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom:5px;
+    border-style:solid;
+    border-color:rgb(26, 158, 234);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.wd-img-cont{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.wd-explore-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.wd-gradient{
+    mask-image: linear-gradient(to bottom, rgba(255, 249, 249, 1) 0%,rgba(0, 0, 0, 1) 100%);
+    -webkit-mask-image: linear-gradient(to bottom,rgba(255, 249, 249, 0.1) 0%,rgba(0, 0, 0, 1) 100%);
+    /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(255,255,255,0.5)); */
+}
+
+.wd-img-bottom-left{
+    position: relative;
+    left: 20px;
+    top: -60px;
+    font-size: 25px;
+    color: white;
+}
+.wd-tuit-explore{
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.wd-tuit-explore-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: left;
+    vertical-align:middle;
+    padding: 10px;
+}
+
+.wd-item-category{
+    color:grey;
+    /* margin-bottom:20px; */
+    font-size: large;
+}
+.wd-item-title{
+    font-size:x-large;
+    margin-top:20px;
+    margin-bottom:20px;
+    color:black;
+}
+.wd-item-engagement{
+    margin-top:20px;
+    color:grey;
+    font-size: large;
+}

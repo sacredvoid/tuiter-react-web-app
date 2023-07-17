@@ -1,0 +1,94 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation bar */
+  #nav-bar {
+    padding: 20px;
+    background-color: #f5f8fa;
+  }
+  
+  #nav-bar a {
+    text-decoration: none;
+    color: #1da1f2;
+  }
+  
+  /* Search Bar */
+  .wd-css-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e1e8ed;
+  }
+  
+  .wd-search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .wd-search-bar input[type="search"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #c2c6cb;
+    border-radius: 20px;
+    margin-left: 10px;
+  }
+  
+  .wd-search-tabs {
+    margin-bottom: 20px;
+  }
+  
+  .wd-tab-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .wd-tab-list li {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #1da1f2;
+  }
+  
+  .wd-tab-list li.wd-selected {
+    font-weight: bold;
+  }
+  
+  /* Explore Item */
+  .wd-tuit-explore {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .wd-tuit-explore-item {
+    margin-bottom: 20px;
+  }
+  
+  .wd-explore-item-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .wd-item-category {
+    color: #657786;
+  }
+  
+  .wd-item-title {
+    font-weight: bold;
+  }
+  
+  .wd-item-engagement {
+    color: #657786;
+  }
+  
+  .fa-ellipsis-h {
+    margin-left: 10px;
+    color: #657786;
+  }
+  
