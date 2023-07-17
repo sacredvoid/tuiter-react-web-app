@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.wd-float-left{
+    float:left
+}
+
+.wd-float-right{
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.wd-bookmark-left-margin{
+    font-size:larger;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 10%;
+}
+
+.wd-bookmark-saved-content{
+    width: 90%;
+    position: relative;
+}
+
+.wd-user-dp{
+    border-radius: 30% 30% 30% 30%;
+    height: 60px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: relative;
+    vertical-align: top;
+    width: 100px;
+}
+
+.wd-saved-content-title{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+.wd-tuit-details{
+    position: relative;
+    font-size: larger;
+}
+
+.wd-tuit-icon{
+    position: absolute;
+    right:10px;
+    bottom: 20px;
+    color: lightslategray;
+}
+
+.wd-user-handle-misc-details{
+    color:lightslategray;
+}
+
+.wd-bookmark-link-preview{
+    border-radius: 20px 20px 20px 20px;
+    border: dotted 1px grey;
+    height: 500px;
+    margin-bottom: 10px;
+    margin-top : 50px;
+    position: relative;
+    width : 500px;
+}
+
+.wd-bookmark-link-image{
+    border-radius: 20px 20px 0px 0px;
+    height:70%;
+    position:absolute;
+    width: 100%;
+}
+
+.wd-bookmark-link-desc{
+    font-size: large;
+    height : 25%;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    position:absolute;
+    top: 375px;
+    width : 480px;
+}
+
+.wd-bookmark-link-desc > a {
+    color: black;
+    margin-bottom: 2px;
+    text-decoration:none;
+}
+
+.wd-bookmark-link-desc > h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.wd-bookmark-link-desc > span {
+    margin-top: 2px;
+    color: grey;
+}
+
+/* .wd-bookmark-outreach{
+    position: relative; 
+} */
+
+.wd-bookmark-outreach-icon-list{
+    display: flex;
+    justify-content: flex-start;
+    gap: 4.5em;
+    list-style: none;
+    position:relative;
+    right: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(182, 177, 177);
+}
