@@ -8,11 +8,20 @@ body{
     font-size: x-large;
   }
 
+  #nav-bar{
+    position: relative;
+    margin-top: -50vh;
+  }
+
 .nav-bar-table{
-    display: flex;
+    width: 100%;
 }
 
-.wd-css-container{
+.wd-tuit-links{
+margin-top: -40px;
+}
+
+.wd-css-cont{
     display: flex;
     flex-direction: column;
 }
@@ -132,6 +141,7 @@ body{
     align-items: left;
     vertical-align:middle;
     padding: 10px;
+    margin-left: -35px;
 }
 
 .wd-item-category{

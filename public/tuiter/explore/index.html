@@ -1,0 +1,267 @@
+<html>
+    <head>
+        <title>Explore</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" rel="stylesheet"/>
+        <link href="index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="container text-left">
+            <div class="row my-3">
+              <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
+                <div class="list-group d-inline">
+                    <a href="#" class="list-group-item list-group-item-action align" aria-current="true">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="../home.html" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-1 mt-1">
+                                <i class="fa fa-home"></i>
+                            </div>
+                            <div class="col d-none d-xl-block">
+                                Home
+                            </div>
+                        </div>
+                    </a>
+                        <!-- <span class="d-none d-xl-block"></span></a> -->
+                    <a href="#" class="list-group-item list-group-item-action active">
+                        <div class="row">
+                            <div class="col-1 mt-1">
+                                <i class="fa fa-hashtag"></i>
+                            </div>
+                            <div class="col d-none d-xl-block">
+                                Explore
+                            </div>
+                        </div>
+                    </a>
+                        <!-- <i class="fa fa-hashtag"></i> <span class="d-none d-xl-block">Explore</span></a> -->
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-1 mt-1">
+                                <i class="fa fa-bell"></i>
+                            </div>
+                            <div class="col d-none d-xl-block">
+                                Notifications
+                            </div>
+                        </div>
+                    </a>
+                        <!-- <i class="fa fa-bell"></i> <span class="d-none d-xl-block">Notifications</span></a> -->
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-1 mt-1">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="col d-none d-xl-block">
+                                Messages
+                            </div>
+                        </div>
+                    </a>
+                        <!-- <i class="fa fa-envelope"></i> <span class="d-none d-xl-block">Messages</span></a> -->
+                    <a href="../bookmarks/bookmarks-css.html" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-1 mt-1">
+                                <i class="fa fa-bookmark"></i>
+                            </div>
+                            <div class="col d-none d-xl-block">
+                                Bookmarks
+                            </div>
+                        </div>
+                    </a>
+                        <!-- <i class="fa fa-bookmark"></i> <span class="d-none d-xl-block">Bookmarks</span></a> -->
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-1 mt-1">
+                                <i class="fa fa-list"></i>
+                            </div>
+                            <div class="col d-none d-xl-block">
+                                Lists
+                            </div>
+                        </div>
+                    </a>
+                        <!-- <i class="fa fa-list"></i> <span class="d-none d-xl-block">Lists</span></a> -->
+                    <a href="../profile.html" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-1 mt-1">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="col d-none d-xl-block">
+                                Profile
+                            </div>
+                        </div>
+                    </a>
+                        <!-- <i class="fa fa-user"></i> <span class="d-none d-xl-block">Profile</span></a> -->
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-1 mt-1">
+                                <i class="fa fa-minus-circle"></i>
+                            </div>
+                            <div class="col d-none d-xl-block">
+                                More
+                            </div>
+                        </div>
+                    </a>
+                        <!-- <i class="fa fa-minus-circle"></i> <span class="d-none d-xl-block">More</span></a> -->
+                  </div>
+                  <button type="button" class="btn btn-primary rounded-pill" style="margin-top: 10px; font-size: large; width: 100%;">Tuit</button>
+              </div>
+              <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-4">
+                            <input type="text" class="form-control rounded-pill fontAwesome" placeholder="&#xf002; Search Tuiter">
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa fa-3x fa-cog mt-1" id="wd-gear-icon" style="color: #0d6efd;"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">For you</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link">Sports</a>
+                        </li>
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link">Entertainment</a>
+                          </li>
+                      </ul>
+                </div>
+                <div class="row">
+                    <div class="list-group mt-3">
+                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                          <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-column">
+                                <small>Web Development</small>
+                                <h5 class="mb-1">ReactJS <i class="fa fa-check-circle"></i> - 2h</h5>
+                                <p class="mb-1 text-wrap">Can't wait for JS classes to start!!!!</p>
+                                
+                            </div>
+                            <div class="wd-explore-tuit-thumbnail">
+                                <img class="rounded-4" src="../../images/react.png">
+                            </div>
+                          </div>
+                          
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                            <div class="d-flex justify-content-between">
+                              <div class="d-flex flex-column">
+                                  <small>Rick and Morty</small>
+                                  <h5 class="mb-1">Rick & Morty <i class="fa fa-check-circle"></i> - 7h</h5>
+                                  <p class="mb-1 text-wrap">One of our favourite productions, Rick and Morty is streaming for free!</p>
+                                  
+                              </div>
+                              
+                              <div class="wd-explore-tuit-thumbnail">
+                                <img class="rounded-4" src="../../images/rnm.jpg">
+                            </div>
+                              <!-- <img class="rounded-circle" src="../../images/rnm.jpg"> -->
+                            </div>
+                            
+                          </a>
+                          <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                            <div class="d-flex justify-content-between">
+                              <div class="d-flex flex-column">
+                                  <small>Internet</small>
+                                  <h5 class="mb-1">HTML5 <i class="fa fa-check-circle"></i> - 4h</h5>
+                                  <p class="mb-1 text-wrap">Learn HTML 5 like never before, sign up for the classes, link in Bio!</p>
+                                  
+                              </div>
+                              <div></div>
+                              <div class="wd-explore-tuit-thumnail-container wd-right-flex">
+                                <img class="rounded-4" src="../../images/html5.jpg">
+                            </div>
+                              <!-- <img class="rounded-circle" src="../../images/html5.jpg"> -->
+                            </div>
+                            
+                          </a>
+                          <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                            <div class="d-flex justify-content-between">
+                              <div class="d-flex flex-column">
+                                  <small>Elon vs Zuck</small>
+                                  <h5 class="mb-1">ChatGPT100 <i class="fa fa-check-circle"></i> - 5h</h5>
+                                  <p class="mb-1 text-wrap">Enjoy the most awaited fight on our PayPerView, $1000 only!</p>
+                                  
+                              </div>
+                              <div class="wd-explore-tuit-thumbnail">
+                                <img class="rounded-4" src="../../images/elonvmusk.jpg">
+                            </div>
+                              <!-- <img class="rounded-circle" src="../../images/elonvmusk.jpg   "> -->
+                            </div>
+                            
+                          </a>
+                      </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 d-none d-lg-block">
+                <ul class="list-group">
+                    <li class="list-group-item"><b>Who to follow</b></li>
+                    <li class="list-group-item">
+                        <div class="row w-2">
+                            <div class="col-2">
+                                <img class="img-thumbnail rounded-circle" src="../../images/bookmark-2-link.jpg">
+                            </div>
+                            <div class="col d-flex flex-column">
+                                <div><b>Khoury College</b> <i class="fa fa-check-circle"></i></div>
+                                <div>@CSForLife</div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary rounded-pill" style="margin-top: 10px; font-size: large; width: 100%;">Follow</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="img-fluid img-thumbnail" src="../../images/to-follow-2.jpg">
+                            </div>
+                            <div class="col d-flex flex-column">
+                                <div><b>Rick Sanchez</b> <i class="fa fa-check-circle"></i></div>
+                                <div>@RickSan</div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary rounded-pill" style="margin-top: 10px; font-size: large; width: 100%;">Follow</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item"><div class="row">
+                        <div class="col-2">
+                            <img class="img-thumbnail rounded-circle" src="../../images/follow-3.jpg">
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <div><b>Morty Smith</b> <i class="fa fa-check-circle"></i></div>
+                            <div>@MortySm</div>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-primary rounded-pill" style="margin-top: 10px; font-size: large; width: 100%;">Follow</button>
+                        </div>
+                    </div></li>
+                    <li class="list-group-item"><div class="row">
+                        <div class="col-2">
+                            <div>
+                                <img class="img-fluid rounded-circle" src="../../images/follow-4.jpg">
+                            </div>
+                            
+                        </div>
+                        <div class="col d-flex flex-column">
+                            <div><b>Elon Musk</b> <i class="fa fa-check-circle"></i></div>
+                            <div>@Tesla5Lyf</div>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-primary rounded-pill" style="margin-top: 10px; font-size: large; width: 100%;">Follow</button>
+                        </div>
+                    </div></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>

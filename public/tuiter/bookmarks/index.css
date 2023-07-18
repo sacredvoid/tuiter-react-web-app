@@ -2,7 +2,7 @@ body{
     background-color: white;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .wd-float-left{
@@ -13,6 +13,10 @@ body{
     float:right;
     margin-right: 20px;
     margin-top: 20px;
+}
+
+.wd-tuit-links{
+    padding: 100px;
 }
 
 .wd-bookmark-left-margin{
@@ -122,3 +126,20 @@ body{
     border-bottom-style: solid;
     border-bottom-color: rgb(182, 177, 177);
 }
+
+.fontAwesome {
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+  }
+
+  .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+  }
