@@ -160,3 +160,11 @@ margin-top: -40px;
     color:grey;
     font-size: large;
 }
+
+.wd-flex-left{
+    flex: 2
+}
+
+.wd-flex-right{
+    flex: 1
+}
