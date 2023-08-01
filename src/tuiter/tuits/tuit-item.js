@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import TuitStats from "./tuit-stats";
+import { useDispatch } from "react-redux";
+import { deleteTuit } from "../reducers/tuits-reducer";
 
 const TuitItem = (
     {
@@ -21,6 +23,10 @@ const TuitItem = (
         }
     }
 ) => {
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {
+        dispatch(deleteTuit(id));
+    }
     return(
         <li className="list-group-item">
             <div className="row">
@@ -28,11 +34,20 @@ const TuitItem = (
                     <img width={40} height={40} className="float-left rounded-circle" src={`/images/${tuit.image}`}/>
                 </div>
                 <div className="col-11">
+                    <div>
+                        
+                    </div>
+                    <div className="wd-tuit-close-btn">
+                            <i className="btn-close float-end"
+                        onClick={() => deleteTuitHandler(tuit._id)}></i>
+                        </div>
                     <div className="wd-tuit-item p-1">
                                 <span><b>{tuit.userName}</b> </span>
                                 <span><FontAwesomeIcon icon={faCheckCircle} style={{color: "#1c6efd",}} /> </span>
                                 <span>{tuit.handle} . </span>
                                 <span>{tuit.time} </span>
+                                <div><i className="bi bi-x-lg float-end"
+            onClick={() => deleteTuitHandler(tuit._id)}></i></div>
                     </div>
                     <div className="p-1">
                         {tuit.tuit}
