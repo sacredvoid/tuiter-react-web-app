@@ -5,13 +5,13 @@
         "userName": "SpaceX",
         "title": "Tesla CyberTruck lands on Mars and picks up the Curiosity rover on its 6' bed",
         "time": "2h",
-        "image": "tesla.jpg",
-        "liked": true,
+        "image": "spacex-black.jpg",
+        "liked": false,
         "replies": 100,
         "retuits": 100,
         "likes": 1200,
         "handle": "@SpaceX",
-        "tuit": "What on earth have we done, by sending our men to Moon."
+        "tuit": "🔴 Red planet, here we come! 🔴 SpaceX is thrilled to unveil our Martian Oasis project 🪐 - a revolutionary concept for sustainable life on Mars. 🚀🌱 From terraforming to building habitats, this bold mission aims to make Mars a second home for humanity. 🏠 Exciting times ahead as we embark on this interplanetary endeavor. Stay tuned for updates on our journey to the Red Planet! #SpaceX #MarsMission #InterplanetaryFuture #MakingMarsHome 🚀🪐"
     },
     {
         "_id": 234,
@@ -19,13 +19,13 @@
         "userName": "SpaceX",
         "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
         "time": "2h",
-        "image": "spacex.png",
+        "image": "spacex-black.jpg",
         "liked": true,
         "replies": 200,
         "retuits": 200,
         "likes": 2000,
         "handle": "@SpaceX",
-        "tuit": "What on earth have we done, by sending our men to Moon."
+        "tuit": "🚀 Exciting times ahead! 🌌 SpaceX is proud to announce our latest mission: \"Cosmic Journey.\" 🌠 We're gearing up to launch a cutting-edge satellite that will explore uncharted regions of our universe, unlocking mysteries that have eluded us for centuries. 🛰️ Stay tuned for launch details and join us as we push the boundaries of space exploration! #SpaceX #CosmicJourney #SpaceExploration #ToInfinityAndBeyond 🚀🌌"
     },
     {
         "_id": 345,
@@ -33,12 +33,12 @@
         "userName": "Tesla",
         "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
         "time": "4d",
-        "image": "tesla.jpg",
+        "image": "tesla-black.jpg",
         "liked": true,
         "replies": 500,
         "retuits": 500,
         "likes": 6000,
         "handle": "@TeslaUSA",
-        "tuit": "Huh, we are making electric cars that run on fossil fuels. Tryna change that though."
+        "tuit": "🔋⚡️ Electrifying the future ⚡️🔋 Tesla is proud to unveil our latest innovation: the Model Z! 🚘💨 Boasting even greater range, enhanced autopilot capabilities, and a sleek design, the Model Z is set to redefine the electric driving experience. 🌐🚀 Join us as we accelerate towards sustainable transportation for all! Reserve yours today. #Tesla #ModelZ #ElectricRevolution #SustainableFuture 🌱🚗"
     }
 ]

@@ -35,13 +35,13 @@ const TuitItem = (
                 </div>
                 <div className="col-11">
                     <div>
-                        
+
                     </div>
-                    <div className="wd-tuit-close-btn">
+                    <div>
                             <i className="btn-close float-end"
                         onClick={() => deleteTuitHandler(tuit._id)}></i>
                         </div>
-                    <div className="wd-tuit-item p-1">
+                    <div className="p-1">
                                 <span><b>{tuit.userName}</b> </span>
                                 <span><FontAwesomeIcon icon={faCheckCircle} style={{color: "#1c6efd",}} /> </span>
                                 <span>{tuit.handle} . </span>

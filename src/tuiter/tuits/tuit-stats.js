@@ -15,22 +15,22 @@ const TuitStats = ( {tuitID, likes, liked, replies, retuits} ) => {
     return(
         <>
         <div className="row">
-            <div className="col-2">
-                <span className="wd-stat-icon-and-value"><FontAwesomeIcon icon={faComment}/> {replies}</span>
+            <div className="col-2 pt-2">
+                <FontAwesomeIcon icon={faComment}/> {replies}
             </div>
-            <div className="col-2">
+            <div className="col-2 pt-2">
                 <span className="wd-stat-icon-and-value"><FontAwesomeIcon icon={faRetweet}/> {retuits}</span>
             </div>
             <div className="col-2">
-                <button className="btn wd-likes-btn" onClick={likeHandler}><span className="wd-stat-icon-and-value">
+                <button className="btn" onClick={likeHandler}>
                 {liked ? (
                     <FontAwesomeIcon icon={faHeartSolid} style={{color: "red"}}></FontAwesomeIcon>
                 ): (
                     <FontAwesomeIcon icon={faHeartOutline}></FontAwesomeIcon>
-                )} {likes}</span></button>
+                )} {likes}</button>
             </div>
             <div className="col-2">
-                <button className="btn"><span className="wd-stat-icon-and-value"><FontAwesomeIcon icon = {faUpload} /></span></button>
+                <button className="btn"><FontAwesomeIcon icon = {faUpload} /></button>
             </div>
         </div>
         </>
