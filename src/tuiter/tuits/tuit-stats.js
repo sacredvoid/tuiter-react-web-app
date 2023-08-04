@@ -10,7 +10,7 @@ const TuitStats = ( {tuit} ) => {
         const dispatch = useDispatch();
 
     const likeHandler = () =>{
-        dispatch(updateTuitThunk({...tuit, likes: tuit.likes +1}))
+        dispatch(updateTuitThunk({...tuit, likes: tuit.likes +1, liked: true}))
     }
 
     const dislikeHandler = () =>{

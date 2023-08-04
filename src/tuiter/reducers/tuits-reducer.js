@@ -7,7 +7,7 @@ const initialState = {
 }
 
 const currentUser = {
-    "userName": "NASA",
+    "username": "NASA",
     "handle": "@nasa",
     "image": "nasa.jpg",
    };
@@ -54,7 +54,7 @@ const tuitSlice = createSlice({
       [createTuitThunk.fulfilled]:
         (state, {payload}) => {
           state.loading = false;
-          state.tuits.push(payload);
+          state.tuits.push({...templateTuit,...payload});
         },
 
       [updateTuitThunk.fulfilled]:

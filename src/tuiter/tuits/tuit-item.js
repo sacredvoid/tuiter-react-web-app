@@ -42,7 +42,7 @@ const TuitItem = (
                         onClick={() => deleteTuitHandler(tuit._id)}></i>
                         </div>
                     <div className="p-1">
-                                <span><b>{tuit.userName}</b> </span>
+                                <span><b>{tuit.username}</b> </span>
                                 <span><FontAwesomeIcon icon={faCheckCircle} style={{color: "#1c6efd",}} /> </span>
                                 <span>{tuit.handle} . </span>
                                 <span>{tuit.time} </span>
