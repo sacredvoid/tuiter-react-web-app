@@ -28,7 +28,7 @@ const TuitStats = ( {tuit} ) => {
             <div className="col-2 pt-2">
                 <span className="wd-stat-icon-and-value"><FontAwesomeIcon icon={faRetweet}/> {tuit.retuits}</span>
             </div>
-            <div className="col-2">
+            <div className="col-2 col-md-3 col-lg-3 col-xl-3 col-xxl-2">
                 <button className="btn" onClick={likeHandler}>
                 {tuit.liked ? (
                     <FontAwesomeIcon icon={faHeartSolid} style={{color: "red"}}></FontAwesomeIcon>
@@ -36,7 +36,7 @@ const TuitStats = ( {tuit} ) => {
                     <FontAwesomeIcon icon={faHeartOutline}></FontAwesomeIcon>
                 )} {tuit.likes}</button>
             </div>
-            <div className="col-2">
+            <div className="col-2 col-md-3 col-lg-3 col-xl-3 col-xxl-2">
                 <button className="btn" onClick={dislikeHandler}>
                     <FontAwesomeIcon icon={faThumbsDown}></FontAwesomeIcon> {tuit.dislikes}
                 </button>
