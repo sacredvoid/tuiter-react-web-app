@@ -14,6 +14,7 @@ import ProtectedRoute from './protected-route';
 import ProfileScreen from './tuiter/user/profile-screen';
 import { configureStore } from '@reduxjs/toolkit';
 
+// useless comment to commit, need to revert a5 back to original a5, it has the a6 code
 const store = configureStore(
   {
     reducer: {
